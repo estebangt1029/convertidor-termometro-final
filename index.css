@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid;
+    text-align: center;
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+.subcontainer{
+    display: flex;
+    
+}
+
+
+
+
+
+
+.izquierda{
+    border: 1px solid;
+    background-color: cadetblue;
+    width: 50%;
+    
+}
+input{
+    width: 80%;
+}
+#celcius{
+    margin: auto;
+    height: 20px;
+    width: 80%;
+    border: 1px solid;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.derecha{
+    border: 1px solid;
+    background-color: brown;
+    width: 50%;
+   
+}
+.termometro{
+    border: 1px solid;
+    height: 60%;
+    width: 20%;
+    margin:auto;
+    transform: rotate(180deg);
+    overflow: hidden;
+    
+}
+#temperatura{
+    background-color: gold;
+    transform: rotate(180deg);
+   
+}
